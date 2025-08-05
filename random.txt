@@ -1,0 +1,6 @@
+adb tcpip 5555
+
+adb shell ip route
+
+10.147.233.253 
+
