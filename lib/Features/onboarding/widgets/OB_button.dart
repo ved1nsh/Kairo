@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CustomButton extends StatelessWidget {
+class OnboardingButton extends StatelessWidget {
   final String text;
   final VoidCallback? onPressed;
   final Color? backgroundColor;
   final Color? textColor;
 
-  const CustomButton({
+  const OnboardingButton({
     super.key,
     required this.text,
     required this.onPressed,
@@ -24,11 +24,11 @@ class CustomButton extends StatelessWidget {
       child: TextButton(
         onPressed: onPressed,
         style: TextButton.styleFrom(
-          backgroundColor: backgroundColor ?? const Color(0xFF2C2C54),
+          backgroundColor: backgroundColor ?? const Color(0xFF191B46),
           foregroundColor: textColor ?? Colors.white,
           elevation: 0,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16.r),
+            borderRadius: BorderRadius.circular(10.r),
           ),
         ),
         child: Text(

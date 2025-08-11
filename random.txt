@@ -4,3 +4,6 @@ adb shell ip route
 
 10.147.233.253 
 
+10.140.176.20 
+
+894095589-b1gkhu4s091jglut8491mlldkngf1f04.apps.googleusercontent.com
